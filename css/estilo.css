@@ -1,191 +1,144 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Roboto:wght@100&display=swap');
-
-/* BODY  */
-
-body {
-    background-color: #023047;
-    font-family: 'Arimo', sans-serif;
-    color: black;
-    
-}
-
-/* HEADER */
-
-header {
-    background-color: #023047;
-    border-bottom: 1px solid black;
-    padding: 10px 20px;
-}
-
-.logo {
-    width: 200px;
-    background-color: #023047;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 10px;
-   
-}
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
-}
-
-/* MAIN */
-
-main {
-    margin: 20px;
-    padding: 20px;
-}
-
-h1 {
-    text-align: left;
-    text-decoration: underline;
-    margin: 20px 0px;
-}
-
-/* FOOTER */
-
-footer {
-    margin: 20px;
-    padding: 20px;
-    border-top: 1px solid black;
-    text-align: center;
-}
-
-/* Productos */
-
-.conozcaProductos {
-    text-align: center;
-}
-
-/* .contenedorProductos {
-    margin: 20px;
-    width: 32%;
-    border: 4px solid black;
-    border-radius: 10px;
-}
-
-.imgProducto {
-    display: block;
-    width: 95%;
-    height: auto;
-
-} */
-
-/* .contenedorProductos p {
-    
-    color: gold;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: uppercase;
-} */
-
-/* IFRAME */
-
-.comoLlegar {
-    display: block;
-    margin-top:  25px;
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: underline;
-}
-iframe {
-    display: block;
-    margin: 20px;
-}
-
-/* FORMULARIO DE CONTACTO */
-
-form {
-    margin-top: 40px;
-}
-
-label {
-    display: block;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: black;
-}
-
-input [type= text],
-textarea {
-    display: block;
-    width: 70%;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.btnFormulario {
-    background-color: whitesmoke;
-    color: black;
-    padding: 2px 5px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-/* PREGUNTAS FREQUENTES */
-
-.preguntasFrequentes {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 5px;
-    margin: 2px;
-    text-align: left;
-}
-
-
 /* FOCUS CONTACTO*/
-input:focus {
-    background-color: #E7D29C;
-}
-textarea:focus {
-    background-color: #E7D29C;
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Roboto:wght@100&display=swap");
+input:focus, textarea:focus {
+  background-color: #E7D29C;
 }
 
 nav {
-    text-align: center;
-    flex-direction: column;
+  text-align: center;
+  flex-direction: column;
 }
 
 /* Boton Tienda */
 .btnTienda {
-    background-color: gold;
-    color: black;
+  background-color: gold;
+  color: black;
 }
-
 .btnTienda:hover {
-    background-color: #D4AC0D;
+  background-color: #D4AC0D;
 }
 
-.card{
-    background-color: #023047;
-    border: solid black 2px;
-    margin: 20px;
-    color: black;
-    
+.card {
+  background-color: #023047;
+  border: solid black 2px;
+  margin: 20px;
+  color: black;
 }
 
+/* FOOTER */
+footer {
+  margin: 20px;
+  padding: 20px;
+  border-top: 1px solid black;
+  text-align: center;
+}
 
+/* FORMULARIO DE CONTACTO */
+form {
+  margin-top: 40px;
+}
 
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: black;
+}
 
+input [type=text], textarea {
+  display: block;
+  width: 70%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
 
+.btnFormulario {
+  background-color: whitesmoke;
+  color: black;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
 
+/* HEADER */
+header {
+  background-color: #023047;
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 200px;
+  background-color: #023047;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fafafa;
+}
+
+/* IFRAME */
+.comoLlegar {
+  display: block;
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+iframe {
+  display: block;
+  margin: 20px;
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: left;
+  text-decoration: underline;
+  margin: 20px 0px;
+}
+
+/* PREGUNTAS FREQUENTES */
+.preguntasFrequentes {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 2px;
+  text-align: left;
+}
+
+/* BODY  */
+body {
+  background-color: #023047;
+  font-family: "Arimo", sans-serif;
+  color: #fafafa;
+}
+
+.carousel-item img{
+
+  margin: auto;
+
+	max-width: 100%;
+
+	object-fit: cover;
+
+}
+/*# sourceMappingURL=estilo.css.map */

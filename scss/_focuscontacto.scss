@@ -1,0 +1,29 @@
+/* FOCUS CONTACTO*/
+
+input:focus, textarea:focus {
+    background-color: $color-fondo;
+  }
+  
+  nav {
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  /* Boton Tienda */
+  
+  .btnTienda {
+    background-color: $color-botones;
+    color: black;
+  
+    &:hover {
+      background-color: #D4AC0D;
+    }
+  }
+  
+  .card {
+    background-color: #023047;
+    border: solid black 2px;
+    margin: 20px;
+    color: $color-fuente-sec;
+  }
+  
