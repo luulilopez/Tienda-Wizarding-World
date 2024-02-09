@@ -9,19 +9,37 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="container-fluid">
-    <header>
-        <a href="">
-            <img class="logo" src="../img/WW_logo_2018.webp" alt="Logo de Wizarding World">
-        </a>
-    </header>
+
+  <header class="encabezado">
+
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          
+          <img class="logo" src="../img/WW_logo_2018.webp" alt="Logo de Wizarding World">
+      </a>
+      
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+    
+
+    
+</header>
     <nav>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="quienessomos.html">¿Quiénes Somos?</a></li>
             <li><a href="productos.html">Productos</a></li>
-            <li><a href="preguntasfrequentes.html">Preguntas Frequentes</a></li>
+            <li><a href="preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
@@ -30,7 +48,7 @@
         <h1 class="conozcaProductos">Conozca nuestros productos</h1>
 
         <!-- CARDS -->
-        <div class="container-fluid">
+        <div class="container-fluid" data-aos="zoom-in">
             <div class="row">
 
                 <div class="card col-xl-3 col-md-6 col-sm-12">
@@ -41,6 +59,7 @@
                       <a href="#" class=" btn btnTienda">Comprar</a>
                     </div>
                   </div>
+                  
     
                   <div class="card col-xl-3 col-md-6 col-sm-12">
                     <img src="../indumentaria/sudadera con capucha cs.webp" class="card-img-top" alt="Sudadera con capucha">
@@ -76,6 +95,24 @@
                       <a href="#" class="btn btnTienda">Comprar</a>
                     </div>
                   </div>
+
+                  <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img src="../indumentaria/buzo con mapa merodeador.webp" class="card-img-top" alt="Buzo con mapa merodeador">
+                    <div class="card-body">
+                      <h2 class="card-title text-center">Buzo con mapa merodeador</h2>
+                      
+                      <a href="#" class=" btn btnTienda">Comprar</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img src="../indumentaria/tunica ravenclaw.webp" class="card-img-top" alt="Túnica Ravenclaw">
+                    <div class="card-body">
+                      <h2 class="card-title text-center">Túnica Ravenclaw</h2>
+                      
+                      <a href="#" class=" btn btnTienda">Comprar</a>
+                    </div>
+                  </div>
     
                   <div class="card col-xl-3 col-md-6 col-sm-12">
                     <img src="../indumentaria/jersey quidditch ravenclaw.webp" class="card-img-top" alt="Jersey quidditch">
@@ -98,16 +135,49 @@
             </div>
         </div>
         
-        
+        <div class="container py-4">
+          <nav>
+            <ul class="pagination justify-content-center">
+
+              <li class="page-item disabled">
+                <a class="page-link" href="#">Anterior</a>
+              </li>
+
+              <li class="page-item active class">
+                <a class="page-link" href="#">1</a>
+              </li>
+
+              <li class="page-item">
+                <a class="page-link" href="#">2</a>
+              </li>
+
+              <li class="page-item">
+                <a class="page-link" href="#">3</a>
+              </li>
+
+              <li class="page-item">
+                <a class="page-link" href="#">Próximo</a>
+              </li>
+
+            </ul>
+          </nav>
+        </div>
     </main>
 
-    <footer> 
-        <h5>Wizarding World - Todos los derechos reservados &copy; 2023</h5>
+    <footer class="footer"> 
+        <h5>Wizarding World - Todos los derechos reservados &copy; 2024</h5>
     </footer>
    
     
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  
 </body>
 </html>

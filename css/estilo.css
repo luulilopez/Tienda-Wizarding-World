@@ -1,36 +1,127 @@
 /* FOCUS CONTACTO*/
 @import url("https://fonts.googleapis.com/css2?family=Arimo&family=Roboto:wght@100&display=swap");
-input:focus, textarea:focus {
+
+input:focus,
+textarea:focus {
   background-color: #E7D29C;
 }
 
 nav {
   text-align: center;
   flex-direction: column;
+
 }
+
+
 
 /* Boton Tienda */
 .btnTienda {
-  background-color: gold;
+  background: linear-gradient(to left, #3c3b3f, #605c3c, #fdeff9);
   color: black;
-}
-.btnTienda:hover {
-  background-color: #D4AC0D;
+  border: black;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
 }
 
+.btnTienda:hover {
+  background: #bdc3c7;
+  color: black;
+}
+
+
+/* CARDS */
 .card {
   background-color: #023047;
   border: solid black 2px;
   margin: 20px;
-  color: black;
+  color: #fafafa;
+  transition: height 1s width 2s;
+
+}
+
+.nuevo {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  margin: 40px;
+  font-weight: bold;
+  font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+
+}
+
+.loMasVendido {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  margin: 40px;
+  font-weight: bold;
+  font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+}
+
+.box {
+  border: 2px solid black;
+  height: 320px;
+  width: 260px;
+  margin: 40px;
+  
 }
 
 /* FOOTER */
-footer {
+.footer {
   margin: 20px;
   padding: 20px;
   border-top: 1px solid black;
   text-align: center;
+  font-size: 30px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+
+.masinformacion {
+  text-align: left;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contenido {
+  text-align: left;
+  display: block;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  text-transform: none;
+}
+
+.datos {
+  text-align: right;
+  top: 10px;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.footerNav {
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  display: block;
+  font-size: 20px;
+  margin-right: 10px;
+  padding-right: 10px;
+  text-transform: none;
+  justify-content: right;
+
 }
 
 /* FORMULARIO DE CONTACTO */
@@ -43,10 +134,11 @@ label {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 10px;
-  color: black;
+  color: #fafafa;
 }
 
-input [type=text], textarea {
+input [type=text],
+textarea {
   display: block;
   width: 70%;
   padding: 10px;
@@ -76,13 +168,23 @@ header {
 .logo {
   width: 200px;
   background-color: #023047;
+  transition: height 1s, width 2s;
+}
+
+.logo:hover {
+  background-color: #023047;
+  width: 300px;
+  height: 250px;
 }
 
 nav ul li {
   list-style: none;
   display: inline-block;
   margin: 0 10px;
+
 }
+
+
 
 a {
   text-decoration: none;
@@ -113,15 +215,17 @@ main {
 h1 {
   text-align: left;
   text-decoration: underline;
-  margin: 20px 0px;
+  margin: 30px 0px;
+  font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  font-size: 60px;
 }
 
 /* PREGUNTAS FREQUENTES */
 .preguntasFrequentes {
   font-size: 20px;
   font-weight: bold;
-  padding: 5px;
-  margin: 2px;
+  padding: 10px;
+  margin: 5px;
   text-align: left;
 }
 
@@ -132,13 +236,28 @@ body {
   color: #fafafa;
 }
 
-.carousel-item img{
+.carousel-item img {
 
   margin: auto;
 
-	max-width: 100%;
+  max-width: 100%;
 
-	object-fit: cover;
+  object-fit: cover;
 
 }
+
+
+
+/* KEYFRAME EN TEXTO */
+
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
 /*# sourceMappingURL=estilo.css.map */

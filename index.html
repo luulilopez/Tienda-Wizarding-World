@@ -1,82 +1,230 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Si eres fan de Harry Potter, te consideras potterhead y necesitas productos y merchandising de Harry Potter, nuestra tienda es todo lo que necesitas.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Si eres fan de Harry Potter, te consideras potterhead y necesitas productos y merchandising de Harry Potter, nuestra tienda es todo lo que necesitas.">
 
-    <title>Bienvenidos a Wizarding World</title>
-    <!-- CSS BOOTSRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/estilo.css">
+  <title>Bienvenidos a Wizarding World</title>
+  <!-- CSS BOOTSRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/estilo.css">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body class="container-fluid">
-    <header class="encabezado">
+  <header class="encabezado">
 
-        <!-- NavBar Bootstrap -->
-        <nav class="navbar">
-            <div class="container-fluid">
-              <a class="navbar-brand">
-                <img class="logo" src="img/WW_logo_2018.webp" alt="Logo de Wizarding World">
-            </a>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-              </form>
-            </div>
-          </nav>
-        
-
-        
-    </header>
-    
-    
-    
-    
-    <nav class="text-center mt-10">
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="html/quienessomos.html">¿Quiénes Somos?</a></li>
-            <li><a href="html/productos.html">Productos</a></li>
-            <li><a href="html/preguntasfrequentes.html">Preguntas Frequentes</a></li>
-            <li><a href="html/contacto.html">Contacto</a></li>
-        </ul>
+    <!-- NavBar Bootstrap -->
+    <nav class="navbar">
+      <div class="container-fluid" data-aos="flip-left">
+        <a class="navbar-brand">
+          <img class="logo" src="img/WW_logo_2018.webp" alt="Logo de Wizarding World">
+        </a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
     </nav>
-    <main>
-        <h1>Wizarding World</h1>
-        <h2>¡Bienvenidos!</h2>
 
 
-        <!-- CAROUSEL -->
-        <div class="carousel" id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="indumentaria/buso con capucha.webp" class="d-block w-15" alt="Buzo con capucha">
-              </div>
-              <div class="carousel-item">
-                <img src="indumentaria/gorro de punto gryffindor.webp" class="d-block w-15" alt="gorro gryffindor">
-              </div>
-              <div class="carousel-item">
-                <img src="indumentaria/jersey mortifago.webp" class="d-block w-15" alt="jersey mortifago">
+
+  </header>
+
+
+
+
+  <nav class="text-center mt-10">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="html/quienessomos.html">¿Quiénes Somos?</a></li>
+      <li><a href="html/productos.html">Productos</a></li>
+      <li><a href="html/preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
+      <li><a href="html/contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1 data-aos="fade-down-right">¡Bienvenidos!</h1>
+
+
+
+    <!-- CAROUSEL -->
+    <div class="carousel" id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="indumentaria/buso con capucha.webp" class="d-block w-15" alt="Buzo con capucha">
+        </div>
+        <div class="carousel-item">
+          <img src="indumentaria/gorro de punto gryffindor.webp" class="d-block w-15" alt="gorro gryffindor">
+        </div>
+        <div class="carousel-item">
+          <img src="indumentaria/jersey mortifago.webp" class="d-block w-15" alt="jersey mortifago">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="nuevo">NUEVO</div>
+
+    <div class="container-fluid">
+      <div class="row">
+
+          <div class="box">
+              <img src="indumentaria/cornishpixie.webp" class="card-img-top" alt="Sudadera Cornish Pixie">
+              <div class="card-body">
+                <p class="card-title text-center">Sudadera Cornish Pixie</p>
+                
+                <a href="#" class=" btn btnTienda">Comprar</a>
               </div>
             </div>
-          </div>
-        
-    </main>
+            
 
-    <footer> 
-        <h3>Wizarding World - Todos los derechos reservados &copy; 2023</h3>
-    </footer>
+            <div class="box">
+              <img src="indumentaria/sudaderaherbologia.webp" class="card-img-top" alt="Sudadera Herbologia">
+              <div class="card-body">
+                <p class="card-title text-center">Sudadera Herbología</p>
+                
+                <a href="#" class="btn btnTienda">Comprar</a>
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="indumentaria/camisetacondijes.webp" class="card-img-top" alt="Camiseta con Dijes">
+              <div class="card-body">
+                <p class="card-title text-center">Camiseta con Dijes</p>
+                
+                <a href="#" class="btn btnTienda">Comprar</a>
+              </div>
+            </div>
+
+            
+
+            <div class="box">
+              <img src="indumentaria/camisetaspociones.webp" class="card-img-top" alt="Camiseta Pociones">
+              <div class="card-body">
+                <p class="card-title text-center">Camiseta Pociones</p>
+                
+                <a href="#" class="btn btnTienda">Comprar</a>
+              </div>
+            </div>
+      
+      </div>
+  </div>
+
+
+    <div class="loMasVendido">LO MAS VENDIDO</div>
     
-   
-    
-    
+    <div class="container-fluid">
+      <div class="row">
+
+          <div class="box">
+              <img src="indumentaria/jersey ravenclaw.webp" class="card-img-top" alt="Jersey ravenclaw">
+              <div class="card-body">
+                <p class="card-title text-center">Jersey Ravenclaw</p>
+                
+                <a href="#" class=" btn btnTienda">Comprar</a>
+              </div>
+            </div>
+            
+
+            <div class="box">
+              <img src="indumentaria/tunica gryffindor.webp" class="card-img-top" alt="Túnica Gryffindor">
+              <div class="card-body">
+                <p class="card-title text-center">Túnica Gryffindor</p>
+                
+                <a href="#" class="btn btnTienda">Comprar</a>
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="indumentaria/tunica ravenclaw.webp" class="card-img-top" alt="Túnica Ravenclaw">
+              <div class="card-body">
+                <p class="card-title text-center">Túnica Ravenclaw</p>
+                
+                <a href="#" class="btn btnTienda">Comprar</a>
+              </div>
+            </div>
+
+            
+
+            <div class="box">
+              <img src="indumentaria/jersey quidditch Hufflepuff.webp" class="card-img-top" alt="Jersey Quidditch Hufflepuff">
+              <div class="card-body">
+                <p class="card-title text-center">Jersey Quidditch Hufflepuff</p>
+                
+                <a href="#" class="btn btnTienda">Comprar</a>
+              </div>
+            </div>
+      
+      </div>
+  </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container-fluid">
+
+      <div class="row">
+        <p class="masinformacion">MAS INFORMACIÓN</p>
+      
+      <div class="contenido">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="html/quienessomos.html">¿Quiénes Somos?</a></li>
+          <li><a href="html/productos.html">Productos</a></li>
+          <li><a href="html/preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
+          <li><a href="html/contacto.html">Contacto</a></li>
+        </ul>
+
+        <div>
+          <div class="datos">DATOS DE CONTACTO</div>
+          <div class="footerNav" >
+            
+            <ul class="footer-nav justify-content-right">
+            <li class="footer-nav-item"><a class="footer-nav-item-link" href="tel:11 4567 -8910">11 4567- 8910</a></li>
+            <li class="footer-nav-item"><span class="footer-nav-item-link">Watford WD25 7LR, Reino Unido</span></li>
+            <li class="footer-nav-item"><a class="footer-nav-item-link" href="mailto:luc_95@hotmail.com">luc_95@hotmail.com</a></li>
+            </ul>
+            </div>
+        </div>
+      </div>
+
+      
+      
+
+
+    </div>
 
     
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <h3>Wizarding World - Todos los derechos reservados &copy; 2024</h3>
+  </footer>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
 </body>
+
 </html>
